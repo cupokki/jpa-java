@@ -10,9 +10,9 @@
         <class>io.goorm.model.Video</class>
         <properties>
             <property name="jakarta.persistence.jdbc.driver" value="org.mariadb.jdbc.Driver" /> <!-- DB Driver -->
-            <property name="jakarta.persistence.jdbc.url" value="jdbc:mariadb://localhost:3386/jpa" /> <!-- DB URL with Port -->
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mariadb://localhost:3307/jpa" /> <!-- DB URL with Port -->
             <property name="jakarta.persistence.jdbc.user" value="jpa" /> <!-- DB User -->
-            <property name="jakarta.persistence.jdbc.password" value="pw_jpa" /> <!-- DB Password -->
+            <property name="jakarta.persistence.jdbc.password" value="jpa" /> <!-- DB Password -->
 
             <property name="hibernate.dialect" value="org.hibernate.dialect.MariaDBDialect"/> <!-- DB Dialect -->
             <property name="hibernate.hbm2ddl.auto" value="update" /> <!-- create / create-drop / update -->
